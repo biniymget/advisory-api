@@ -44,6 +44,24 @@ Advisory API running on port <PORT>
 
 `http://localhost:5000`
 
+## Docker (Question 3 requirement)
+
+Build and run container:
+
+```bash
+docker build -t advisory-api .
+docker run --rm -p 5000:5000 advisory-api
+```
+
+Test in the same Codespaces/Play with Docker terminal:
+
+```bash
+curl "http://localhost:5000/advisory?region=Bahir%20Dar"
+```
+
+How this plugs into the Question 2 channel adaptation layer:
+- This endpoint is the upstream source for canonical advisory content, and the SMS formatter / IVR-TTS generator / video generator call it before producing channel-specific outputs.
+
 ## Endpoints
 
 ### Health and dependencies

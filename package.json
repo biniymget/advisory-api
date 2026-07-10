@@ -11,6 +11,6 @@
   "license": "ISC",
   "description": "Minimal advisory API for channel adaptation prototype",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.1.0"
   }
 }
