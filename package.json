@@ -1,0 +1,16 @@
+{
+  "name": "pxd",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Minimal advisory API for channel adaptation prototype",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
